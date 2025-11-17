@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: demo
+  name: demo2
   namespace: argocd
 spec:
-  replicas: 5
+  replicas: 8
   selector:
     matchLabels:
       app: demo
