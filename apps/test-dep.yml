@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: demo
-          image: nginx:latest
+          image: non-existent-image:latest
           ports:
             - containerPort: 80
 
